@@ -18,13 +18,21 @@ Use this style system:
 - Body text: Manrope
 
 ASSET LOCK (REQUIRED):
-- Use uploaded asset `stc-logo-horizontal.png` in the header.
-- Use uploaded asset `stc-logo-stacked.png` in the footer.
-- Source of truth (GitHub):
-  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-horizontal.png
-  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-stacked.png
+- Header logo must be the exact STC horizontal image (not an icon substitute):
+  - `https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-horizontal.png`
+- Footer logo must be the exact STC stacked image (not an icon substitute):
+  - `https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-stacked.png`
+- First attempt must use these exact URL assets.
+- If URL rendering fails in Stitch, use uploaded assets as fallback only:
+  - `stc-logo-horizontal.png` (header)
+  - `stc-logo-stacked.png` (footer)
 - Do not redraw, recolor, restyle, crop, or replace logos.
 - Keep aspect ratio locked and preserve clear space.
+- Explicitly forbid placeholder/logo-like vectors in header/footer.
+- Preflight check required before final output:
+  - Header contains visible STC horizontal logo image.
+  - Footer contains visible STC stacked logo image.
+  - No missing-image state, no empty image frame, no generic medical icon replacing logo.
 
 Desktop composition requirements:
 - Top desktop header with navigation and primary CTA
