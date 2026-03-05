@@ -1,0 +1,39 @@
+:root {
+  /* Brand colors */
+  --color-bg-primary: #1f1cde;
+  --color-surface-soft: #d4e3fc;
+  --color-accent-success: #22b610;
+
+  /* Semantic text */
+  --color-text-on-dark: #ffffff;
+  --color-text-on-light: #101828;
+  --color-text-secondary: #344054;
+
+  /* Borders and overlays */
+  --color-border-soft: #b8cdf6;
+  --overlay-dark-12: rgba(16, 24, 40, 0.12);
+  --overlay-dark-18: rgba(16, 24, 40, 0.18);
+
+  /* Typography */
+  --font-heading: "Fraunces", serif;
+  --font-body: "Manrope", sans-serif;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Shadows */
+  --shadow-soft: 0 6px 20px var(--overlay-dark-12);
+  --shadow-md: 0 12px 30px var(--overlay-dark-18);
+}

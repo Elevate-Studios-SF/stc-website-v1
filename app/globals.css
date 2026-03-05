@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap");
+@import "../design-system/tokens.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text-on-dark);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  line-height: 1.15;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-surface-soft);
+  outline-offset: 2px;
+}
+
+@layer components {
+  .stc-container {
+    @apply mx-auto w-full max-w-content px-4 md:px-6;
+  }
+
+  .stc-navbar {
+    @apply bg-stc-bg text-stc-textDark;
+    min-height: 72px;
+  }
+
+  @media (min-width: 1024px) {
+    .stc-navbar {
+      min-height: 88px;
+    }
+  }
+
+  .stc-nav-link {
+    @apply text-[16px] font-semibold text-stc-surface transition-colors duration-200 ease-calm hover:text-white;
+  }
+
+  .stc-footer {
+    @apply bg-stc-bg text-stc-surface;
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-md bg-stc-accent px-6 text-white shadow-soft transition-all duration-200 ease-calm hover:brightness-95 focus-visible:outline-none;
+    min-height: 48px;
+    font-weight: 600;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md border-2 border-stc-surface bg-transparent px-6 text-stc-surface transition-colors duration-200 ease-calm hover:bg-white/10 focus-visible:outline-none;
+    min-height: 48px;
+    font-weight: 600;
+  }
+
+  .stc-card {
+    @apply rounded-lg bg-stc-surface text-stc-textLight shadow-soft;
+    padding: 24px;
+  }
+
+  .stc-input {
+    @apply w-full rounded-md border border-stc-border bg-white px-4 text-stc-textLight placeholder:text-stc-textSecondary focus-visible:border-stc-accent focus-visible:outline-none;
+    min-height: 48px;
+  }
+}
