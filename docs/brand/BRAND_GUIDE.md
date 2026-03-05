@@ -11,6 +11,12 @@ STC should feel stable, clinically credible, and supportive. Visual choices shou
 - Healing Green: `#22B610`
 - Treatment Center Logo Color: `#5F7FB0`
 
+### Color Samples
+
+| Color | Hex | Sample |
+|---|---|---|
+| Treatment Center Logo Color | `#5F7FB0` | <span style="display:inline-block;width:80px;height:20px;background:#5F7FB0;border:1px solid #ccc;border-radius:4px;"></span> |
+
 ### Usage Ratios
 - 60% Deep Indigo (structure, background, navigation)
 - 30% Soft Blue (cards, section fills, supporting surfaces)
