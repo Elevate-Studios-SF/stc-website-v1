@@ -30,9 +30,12 @@ Brand system:
 - Body text: Manrope
 
 ASSET LOCK (REQUIRED):
-- Use uploaded asset `stc-logo-horizontal.png` in header
-- Use uploaded asset `stc-logo-stacked.png` in footer
-- If assets are missing, request upload before generating
+- Use logo URLs from GitHub repo in header/footer:
+  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-horizontal.png
+  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-stacked.png
+- If external URL loading fails in Stitch, fallback to uploaded assets:
+  - `stc-logo-horizontal.png` (header)
+  - `stc-logo-stacked.png` (footer)
 - Do not redraw/recolor/restyle/crop/replace logos
 - Preserve clear space and aspect ratio
 
