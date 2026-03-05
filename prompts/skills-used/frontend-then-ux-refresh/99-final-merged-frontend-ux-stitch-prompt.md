@@ -41,6 +41,11 @@ ASSET LOCK (REQUIRED):
   - `stc-logo-stacked.png` (footer)
 - Do not redraw/recolor/restyle/crop/replace logos.
 - Preserve clear space and aspect ratio.
+- Logo sizing must be applied via CSS only (no image edits):
+  - Header horizontal logo: `width: 220px; height: auto;` (desktop range 180-260px)
+  - Footer stacked logo: `width: 140px; height: auto;` (desktop range 120-180px)
+  - Use `object-fit: contain;` and prevent stretching/cropping.
+  - Never resize logos by redrawing, clipping, or changing artwork pixels.
 - Explicitly forbid placeholder/logo-like vectors in header/footer.
 - Preflight check required before final output:
   - Header contains visible STC horizontal logo image.
