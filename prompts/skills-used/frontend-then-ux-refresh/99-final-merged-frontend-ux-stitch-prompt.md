@@ -31,14 +31,21 @@ Brand system:
 - Body text: Manrope
 
 ASSET LOCK (REQUIRED):
-- Use logo URLs from GitHub repo in header/footer:
-  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-horizontal.png
-  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-stacked.png
-- If external URL loading fails in Stitch, fallback to uploaded assets:
+- Header logo must be the exact STC horizontal image (not an icon substitute):
+  - `https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-horizontal.png`
+- Footer logo must be the exact STC stacked image (not an icon substitute):
+  - `https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-stacked.png`
+- First attempt must use these exact URL assets.
+- If external URL loading fails in Stitch, use uploaded assets as fallback only:
   - `stc-logo-horizontal.png` (header)
   - `stc-logo-stacked.png` (footer)
-- Do not redraw/recolor/restyle/crop/replace logos
-- Preserve clear space and aspect ratio
+- Do not redraw/recolor/restyle/crop/replace logos.
+- Preserve clear space and aspect ratio.
+- Explicitly forbid placeholder/logo-like vectors in header/footer.
+- Preflight check required before final output:
+  - Header contains visible STC horizontal logo image.
+  - Footer contains visible STC stacked logo image.
+  - No missing-image state, no empty image frame, no generic medical icon replacing logo.
 
 NAVIGATION MODEL (REQUIRED):
 - Top nav labels: Programs, Approach, Locations, Insurance, About, Resources, Contact
