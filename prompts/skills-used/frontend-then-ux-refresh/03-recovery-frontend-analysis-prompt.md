@@ -27,6 +27,7 @@ Brand system:
 - Primary action: #22B610
 - Heading font: Fraunces
 - Body font: Manrope
+- Never use white (`#FFFFFF`) as page/canvas background or card surface; use soft blue (`#D4E3FC`) or soft-blue tonal variants only.
 
 ASSET LOCK (REQUIRED):
 - Header logo must be the exact STC horizontal image (not an icon substitute):

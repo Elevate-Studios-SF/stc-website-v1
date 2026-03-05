@@ -16,6 +16,7 @@ Preserve the recovery tone while improving usability, structure clarity, and con
 
 Do not change:
 - Brand colors (#D4E3FC background, #22B610 primary action)
+- Do not introduce white (`#FFFFFF`) page/canvas backgrounds or white card surfaces; keep backgrounds/surfaces soft blue.
 - Logo assets and placement rules
 - Core section flow unless necessary to improve comprehension
 - CTA labels

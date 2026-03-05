@@ -17,6 +17,7 @@ Brand tokens:
 - Primary CTA #22B610
 - Heading font Fraunces
 - Body font Manrope
+- Never use white (`#FFFFFF`) as page/canvas background or card surface; use soft blue (`#D4E3FC`) or soft-blue tonal variants only.
 
 Logo rules:
 - Header area: STC horizontal logo lockup

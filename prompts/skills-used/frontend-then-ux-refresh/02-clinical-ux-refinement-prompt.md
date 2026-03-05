@@ -16,6 +16,7 @@ Keep existing content architecture, then improve UX quality, readability, conver
 
 Do not change:
 - Brand colors (#D4E3FC background, #22B610 primary action)
+- Do not introduce white (`#FFFFFF`) page/canvas backgrounds or white card surfaces; keep backgrounds/surfaces soft blue.
 - Logo assets and placement rules
 - Core section order (unless required for stronger user flow)
 - CTA labels
