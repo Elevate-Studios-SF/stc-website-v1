@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STC Stitch Project Index</title>
+    <style>
+      :root {
+        --bg: #d4e3fc;
+        --surface: #ffffff;
+        --text: #101828;
+        --muted: #344054;
+        --accent: #1f1cde;
+        --cta: #22b610;
+        --border: #c7d7f4;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Tahoma, Verdana, "Segoe UI", Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+      .wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+      h1 {
+        margin: 0 0 12px;
+        color: var(--accent);
+      }
+      p {
+        margin: 0 0 24px;
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 16px;
+      }
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px;
+      }
+      .card h2 {
+        margin: 0 0 8px;
+        font-size: 20px;
+      }
+      .meta {
+        margin: 0 0 12px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .links a {
+        display: inline-block;
+        margin: 0 10px 8px 0;
+        text-decoration: none;
+        color: #fff;
+        background: var(--cta);
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-size: 14px;
+      }
+      .links a.secondary {
+        background: var(--accent);
+      }
+      footer {
+        margin-top: 28px;
+        font-size: 14px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>STC Stitch Project Index</h1>
+      <p>Central index of Stitch-generated projects and their artifacts.</p>
+
+      <section class="grid">
+        <article class="card">
+          <h2>stc-typography-mood-board-v1</h2>
+          <p class="meta">Project ID: 16498935430206199456</p>
+          <div class="links">
+            <a href="./stitch-projects/stc-typography-mood-board-v1/README.md">README</a>
+            <a
+              class="secondary"
+              href="./stitch-projects/stc-typography-mood-board-v1/exports/stc-typography-mood-board-v1.html"
+              >Export HTML</a
+            >
+            <a
+              class="secondary"
+              href="./stitch-projects/stc-typography-mood-board-v1/assets/stc-typography-mood-board-v1.png"
+              >Screenshot</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <footer>Tip: Enable GitHub Pages on this repo (root) to publish this index online.</footer>
+    </main>
+  </body>
+</html>
