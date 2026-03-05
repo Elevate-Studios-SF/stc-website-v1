@@ -4,6 +4,8 @@ PLATFORM: web
 FORM FACTOR: desktop
 CANVAS SIZE: 1920x1080
 CONSTRAINT: no phone UI, no mobile frame, no mobile viewport composition
+IMPLEMENTATION TARGET: Next.js 14+ (App Router) + TypeScript + Tailwind CSS
+MOTION STACK (REQUIRED): Framer Motion + GSAP (ScrollTrigger) + Lenis
 LAYOUT ENFORCEMENT: desktop single-flow landing page
 NAVIGATION ENFORCEMENT: top header navigation
 
@@ -56,3 +58,10 @@ Style requirements:
 - Clear hierarchy, calm clinical tone, concise copy
 - WCAG AA contrast
 - Desktop spacing and readable section rhythm
+
+Motion requirements:
+- Add hero entrance timeline and staggered section reveals.
+- Add scroll-triggered transitions for service/trust sections.
+- Add hover/tween micro-interactions for cards, CTAs, and media.
+- Add subtle parallax/background drift for depth.
+- Include reduced-motion fallback for accessibility (`prefers-reduced-motion`).
