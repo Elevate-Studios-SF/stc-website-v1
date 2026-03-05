@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>STC Typography Mood Board v1</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=Georgia&amp;family=Fraunces:opsz,wght@9..144,400;700&amp;family=Merriweather:wght@400;700&amp;family=Source+Serif+4:wght@400;700&amp;family=IBM+Plex+Serif:wght@400;700&amp;family=Spectral:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#21b710",
+                        "accent-indigo": "#1F1CDE",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#122210",
+                        "clinical-blue": "#D4E3FC",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"],
+                        "tahoma": ["Tahoma", "Verdana", "sans-serif"],
+                        "georgia": ["Georgia", "serif"],
+                        "fraunces": ["Fraunces", "serif"],
+                        "merriweather": ["Merriweather", "serif"],
+                        "source-serif": ["'Source Serif 4'", "serif"],
+                        "ibm-plex": ["'IBM Plex Serif'", "serif"],
+                        "spectral": ["Spectral", "serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .tahoma-body { font-family: 'Tahoma', 'Verdana', sans-serif; }
+    </style>
+</head>
+<body class="bg-clinical-blue text-slate-900 font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 bg-white px-10 py-4 sticky top-0 z-50">
+<div class="flex items-center gap-4 text-accent-indigo">
+<div class="size-8 flex items-center justify-center bg-primary/10 rounded-lg text-primary">
+<span class="material-symbols-outlined">architecture</span>
+</div>
+<div class="flex flex-col">
+<h2 class="text-slate-900 text-lg font-bold leading-tight tracking-tight">STC Typography Mood Board</h2>
+<p class="text-slate-500 text-xs font-medium uppercase tracking-widest">Version 1.0 • Clinical Standards</p>
+</div>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<nav class="flex items-center gap-8">
+<a class="text-slate-600 hover:text-primary text-sm font-semibold transition-colors" href="#grid">Pairings</a>
+<a class="text-slate-600 hover:text-primary text-sm font-semibold transition-colors" href="#scale">Type Scale</a>
+<a class="text-slate-600 hover:text-primary text-sm font-semibold transition-colors" href="#recommendations">Recommendations</a>
+</nav>
+<div class="h-6 w-px bg-slate-200"></div>
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-sm hover:bg-primary/90 transition-all">
+<span class="truncate">Export Spec</span>
+</button>
+</div>
+</header>
+<main class="flex-1 max-w-[1400px] mx-auto w-full px-10 py-8">
+<section class="mb-12 bg-white/60 backdrop-blur-md rounded-xl p-8 border border-white flex flex-wrap justify-between items-end gap-6">
+<div class="max-w-2xl">
+<h1 class="text-slate-900 text-4xl font-black leading-tight tracking-tight mb-3">STC Typography Strategy</h1>
+<p class="text-slate-600 text-lg leading-relaxed">
+                        Evaluating high-contrast serif heading pairings with <span class="font-bold text-accent-indigo">Tahoma</span> body text. 
+                        The goal is to blend clinical precision with healing warmth for Solutions Treatment Center digital interfaces.
+                    </p>
+</div>
+<div class="flex gap-3">
+<div class="px-4 py-2 bg-white rounded-lg border border-slate-200 shadow-sm flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="text-xs font-bold text-slate-700">Clinical Excellence</span>
+</div>
+<div class="px-4 py-2 bg-white rounded-lg border border-slate-200 shadow-sm flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-accent-indigo"></span>
+<span class="text-xs font-bold text-slate-700">Structural Authority</span>
+</div>
+</div>
+</section>
+<h3 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2" id="grid">
+<span class="material-symbols-outlined text-primary">grid_view</span> Variation Grid: Heading Pairings
+            </h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+<!-- Georgia Card -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-shadow">
+<div class="border-b border-slate-100 pb-4">
+<h4 class="font-georgia text-2xl font-bold text-slate-900">Georgia + Tahoma</h4>
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Classic &amp; Reliable</span>
+</div>
+<div class="space-y-4">
+<h1 class="font-georgia text-3xl text-slate-800">Heading 1 Specimen</h1>
+<h2 class="font-georgia text-xl text-slate-700">Sub-heading clinical note</h2>
+<p class="tahoma-body text-sm text-slate-600 leading-normal">Tahoma body text provides exceptional legibility at small sizes for patient records and charts.</p>
+</div>
+<div class="bg-background-light p-4 rounded-lg flex flex-col gap-3">
+<div class="flex justify-between items-center">
+<span class="tahoma-body text-xs font-bold text-slate-500 uppercase">UI Snippet</span>
+<button class="bg-primary px-3 py-1 rounded text-[10px] text-white font-bold tahoma-body uppercase">Book Session</button>
+</div>
+<div class="h-2 w-full bg-slate-200 rounded-full overflow-hidden">
+<div class="bg-primary h-full w-3/4"></div>
+</div>
+</div>
+<div class="flex gap-2">
+<span class="px-2 py-1 bg-green-50 text-green-700 text-[10px] font-bold rounded border border-green-100 uppercase">High Legibility</span>
+<span class="px-2 py-1 bg-blue-50 text-blue-700 text-[10px] font-bold rounded border border-blue-100 uppercase">Standard</span>
+</div>
+</div>
+<!-- Fraunces Card -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-shadow">
+<div class="border-b border-slate-100 pb-4">
+<h4 class="font-fraunces text-2xl font-bold text-slate-900">Fraunces + Tahoma</h4>
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Soft &amp; Modern</span>
+</div>
+<div class="space-y-4">
+<h1 class="font-fraunces text-3xl text-slate-800">Heading 1 Specimen</h1>
+<h2 class="font-fraunces text-xl text-slate-700">Sub-heading clinical note</h2>
+<p class="tahoma-body text-sm text-slate-600 leading-normal">A more humanistic approach to digital health, prioritizing comfort and accessibility.</p>
+</div>
+<div class="bg-background-light p-4 rounded-lg flex flex-col gap-3">
+<div class="flex justify-between items-center">
+<span class="tahoma-body text-xs font-bold text-slate-500 uppercase">UI Snippet</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-xs text-primary">check_circle</span>
+<span class="tahoma-body text-[10px] text-slate-600">Verified Health</span>
+</div>
+</div>
+<input class="tahoma-body text-[10px] w-full border-slate-200 rounded px-2 py-1" placeholder="Patient Name" type="text"/>
+</div>
+<div class="flex gap-2">
+<span class="px-2 py-1 bg-green-50 text-green-700 text-[10px] font-bold rounded border border-green-100 uppercase">Warmth</span>
+<span class="px-2 py-1 bg-purple-50 text-purple-700 text-[10px] font-bold rounded border border-purple-100 uppercase">Modern Serif</span>
+</div>
+</div>
+<!-- Merriweather Card -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-shadow">
+<div class="border-b border-slate-100 pb-4">
+<h4 class="font-merriweather text-2xl font-bold text-slate-900">Merriweather + Tahoma</h4>
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest">High Contrast</span>
+</div>
+<div class="space-y-4">
+<h1 class="font-merriweather text-3xl text-slate-800">Heading 1 Specimen</h1>
+<h2 class="font-merriweather text-xl text-slate-700">Sub-heading clinical note</h2>
+<p class="tahoma-body text-sm text-slate-600 leading-normal">Engineered for screens, Merriweather offers a sturdy presence next to neutral Tahoma.</p>
+</div>
+<div class="bg-background-light p-4 rounded-lg flex flex-col gap-3">
+<div class="flex gap-2">
+<div class="w-8 h-8 rounded bg-accent-indigo flex items-center justify-center text-white"><span class="material-symbols-outlined text-sm">medical_services</span></div>
+<div class="flex flex-col">
+<span class="tahoma-body text-[10px] font-bold text-slate-700">Portal Access</span>
+<span class="tahoma-body text-[9px] text-slate-500">Secure Environment</span>
+</div>
+</div>
+</div>
+<div class="flex gap-2">
+<span class="px-2 py-1 bg-green-50 text-green-700 text-[10px] font-bold rounded border border-green-100 uppercase">Screen Optimized</span>
+<span class="px-2 py-1 bg-orange-50 text-orange-700 text-[10px] font-bold rounded border border-orange-100 uppercase">Sturdy</span>
+</div>
+</div>
+<!-- Source Serif Card -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-shadow">
+<div class="border-b border-slate-100 pb-4">
+<h4 class="font-source-serif text-2xl font-bold text-slate-900">Source Serif 4 + Tahoma</h4>
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Academic &amp; Clean</span>
+</div>
+<div class="space-y-4">
+<h1 class="font-source-serif text-3xl text-slate-800">Heading 1 Specimen</h1>
+<h2 class="font-source-serif text-xl text-slate-700">Sub-heading clinical note</h2>
+<p class="tahoma-body text-sm text-slate-600 leading-normal">Clean and functional, this pairing excels in content-heavy documentation portals.</p>
+</div>
+<div class="bg-background-light p-4 rounded-lg flex flex-col gap-2">
+<nav class="flex justify-between border-b border-slate-200 pb-1">
+<span class="tahoma-body text-[10px] font-bold text-primary">Overview</span>
+<span class="tahoma-body text-[10px] text-slate-400">History</span>
+<span class="tahoma-body text-[10px] text-slate-400">Settings</span>
+</nav>
+</div>
+<div class="flex gap-2">
+<span class="px-2 py-1 bg-green-50 text-green-700 text-[10px] font-bold rounded border border-green-100 uppercase">Professional</span>
+<span class="px-2 py-1 bg-slate-50 text-slate-700 text-[10px] font-bold rounded border border-slate-100 uppercase">Balanced</span>
+</div>
+</div>
+<!-- IBM Plex Card -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-shadow">
+<div class="border-b border-slate-100 pb-4">
+<h4 class="font-ibm-plex text-2xl font-bold text-slate-900">IBM Plex Serif + Tahoma</h4>
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Technological</span>
+</div>
+<div class="space-y-4">
+<h1 class="font-ibm-plex text-3xl text-slate-800">Heading 1 Specimen</h1>
+<h2 class="font-ibm-plex text-xl text-slate-700">Sub-heading clinical note</h2>
+<p class="tahoma-body text-sm text-slate-600 leading-normal">Matches the technical rigor of STC's specialized treatment programs.</p>
+</div>
+<div class="bg-background-light p-4 rounded-lg flex gap-3">
+<div class="w-1/2 h-8 bg-slate-200 rounded animate-pulse"></div>
+<div class="w-1/2 h-8 bg-slate-200 rounded animate-pulse"></div>
+</div>
+<div class="flex gap-2">
+<span class="px-2 py-1 bg-blue-50 text-blue-700 text-[10px] font-bold rounded border border-blue-100 uppercase">Data Driven</span>
+<span class="px-2 py-1 bg-slate-50 text-slate-700 text-[10px] font-bold rounded border border-slate-100 uppercase">Structural</span>
+</div>
+</div>
+<!-- Spectral Card -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col gap-6 hover:shadow-md transition-shadow">
+<div class="border-b border-slate-100 pb-4">
+<h4 class="font-spectral text-2xl font-bold text-slate-900">Spectral + Tahoma</h4>
+<span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Elegant &amp; Light</span>
+</div>
+<div class="space-y-4">
+<h1 class="font-spectral text-3xl text-slate-800 italic">Heading 1 Specimen</h1>
+<h2 class="font-spectral text-xl text-slate-700">Sub-heading clinical note</h2>
+<p class="tahoma-body text-sm text-slate-600 leading-normal">A refined approach for luxury inpatient care landing pages and marketing.</p>
+</div>
+<div class="bg-background-light p-4 rounded-lg flex justify-center">
+<div class="flex -space-x-2">
+<div class="w-6 h-6 rounded-full bg-slate-300 border-2 border-white"></div>
+<div class="w-6 h-6 rounded-full bg-slate-400 border-2 border-white"></div>
+<div class="w-6 h-6 rounded-full bg-slate-500 border-2 border-white"></div>
+</div>
+</div>
+<div class="flex gap-2">
+<span class="px-2 py-1 bg-pink-50 text-pink-700 text-[10px] font-bold rounded border border-pink-100 uppercase">Premium</span>
+<span class="px-2 py-1 bg-green-50 text-green-700 text-[10px] font-bold rounded border border-green-100 uppercase">Calming</span>
+</div>
+</div>
+</div>
+<!-- Type Scale and Recommendations Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Type Scale Section -->
+<div class="lg:col-span-2 bg-white rounded-xl p-8 border border-slate-100 shadow-sm">
+<div class="flex justify-between items-center mb-8" id="scale">
+<h3 class="text-2xl font-bold text-slate-900">Desktop &amp; Mobile Type Scale</h3>
+<div class="flex gap-4">
+<div class="flex items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined text-sm">desktop_windows</span>
+<span class="text-xs font-bold">Desktop (1440px)</span>
+</div>
+<div class="flex items-center gap-1 text-slate-400">
+<span class="material-symbols-outlined text-sm">smartphone</span>
+<span class="text-xs font-bold">Mobile (375px)</span>
+</div>
+</div>
+</div>
+<div class="space-y-8">
+<div class="flex items-end gap-6 border-b border-slate-50 pb-4">
+<div class="w-24 text-[10px] font-bold text-slate-400 uppercase">H1 Display</div>
+<div class="flex-1">
+<p class="text-[56px] font-bold text-slate-900 leading-tight">Solutions For Life</p>
+<p class="text-[42px] font-bold text-slate-400 leading-tight mt-2 italic">Mobile: 42px</p>
+</div>
+</div>
+<div class="flex items-end gap-6 border-b border-slate-50 pb-4">
+<div class="w-24 text-[10px] font-bold text-slate-400 uppercase">H2 Heading</div>
+<div class="flex-1">
+<p class="text-[40px] font-bold text-slate-800">Advanced Treatment</p>
+<p class="text-[32px] font-bold text-slate-400 mt-1 italic">Mobile: 32px</p>
+</div>
+</div>
+<div class="flex items-end gap-6 border-b border-slate-50 pb-4">
+<div class="w-24 text-[10px] font-bold text-slate-400 uppercase">H3 Subhead</div>
+<div class="flex-1">
+<p class="text-[24px] font-bold text-slate-700">Clinical Excellence &amp; Care</p>
+<p class="text-[20px] font-bold text-slate-400 mt-1 italic">Mobile: 20px</p>
+</div>
+</div>
+<div class="flex items-end gap-6 border-b border-slate-50 pb-4">
+<div class="w-24 text-[10px] font-bold text-slate-400 uppercase">Body (Tahoma)</div>
+<div class="flex-1">
+<p class="tahoma-body text-[16px] text-slate-600">Standard body text for primary reading experiences. This represents the core legibility of our clinical records and patient guides.</p>
+<p class="tahoma-body text-[16px] text-slate-400 mt-1 italic">Mobile: 16px (Consistent)</p>
+</div>
+</div>
+<div class="flex items-end gap-6">
+<div class="w-24 text-[10px] font-bold text-slate-400 uppercase">Caption</div>
+<div class="flex-1">
+<p class="tahoma-body text-[14px] font-bold text-slate-500 uppercase tracking-wide">Last Updated: October 2023</p>
+<p class="tahoma-body text-[12px] text-slate-400 mt-1 italic">Mobile: 12px</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Recommendation Panel -->
+<div class="flex flex-col gap-8" id="recommendations">
+<div class="bg-accent-indigo text-white rounded-xl p-8 shadow-lg">
+<h3 class="text-xl font-bold mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined">stars</span> Expert Ranking
+                        </h3>
+<div class="space-y-6">
+<div class="border-l-4 border-primary pl-4">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[10px] font-black bg-primary text-white px-2 py-0.5 rounded-full uppercase">Primary Choice</span>
+<span class="text-xs font-bold text-blue-200">#1</span>
+</div>
+<h4 class="font-fraunces text-lg font-bold">Fraunces + Tahoma</h4>
+<p class="text-xs text-blue-100 mt-1 opacity-80">Best balance of approachable warmth and clinical clarity. Ideal for patient-facing web portals.</p>
+</div>
+<div class="border-l-4 border-white/30 pl-4">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[10px] font-black bg-white/20 text-white px-2 py-0.5 rounded-full uppercase">Campaign</span>
+<span class="text-xs font-bold text-blue-200">#2</span>
+</div>
+<h4 class="font-spectral text-lg font-bold">Spectral + Tahoma</h4>
+<p class="text-xs text-blue-100 mt-1 opacity-80">Excellent for editorial content, success stories, and marketing landing pages.</p>
+</div>
+<div class="border-l-4 border-white/10 pl-4 opacity-70">
+<div class="flex items-center gap-2 mb-1">
+<span class="text-[10px] font-black bg-white/10 text-white px-2 py-0.5 rounded-full uppercase">Professional</span>
+<span class="text-xs font-bold text-blue-200">#3</span>
+</div>
+<h4 class="font-source-serif text-lg font-bold">Source Serif 4</h4>
+<p class="text-xs text-blue-100 mt-1 opacity-80">Recommended for internal physician portals and data-heavy analytics.</p>
+</div>
+</div>
+</div>
+<!-- Usage Rules Sidebar -->
+<div class="bg-white rounded-xl p-8 border border-slate-100 shadow-sm flex-1">
+<h3 class="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">rule</span> Usage Rules
+                        </h3>
+<ul class="space-y-4">
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<div class="flex flex-col">
+<span class="text-sm font-bold text-slate-800">Body Standard</span>
+<span class="text-xs text-slate-500">Tahoma must be used for all UI components and body copy.</span>
+</div>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<div class="flex flex-col">
+<span class="text-sm font-bold text-slate-800">Minimum Size</span>
+<span class="text-xs text-slate-500">16px is the absolute minimum for body text on all devices.</span>
+</div>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary text-lg">check_circle</span>
+<div class="flex flex-col">
+<span class="text-sm font-bold text-slate-800">Heading Hierarchy</span>
+<span class="text-xs text-slate-500">Always use Serif for H1-H3 to establish structural authority.</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-white border-t border-slate-200 px-10 py-8 mt-12">
+<div class="max-w-[1400px] mx-auto flex flex-wrap justify-between items-center gap-6">
+<div class="flex items-center gap-4">
+<div class="size-6 bg-slate-100 rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-slate-400 text-sm">inventory_2</span>
+</div>
+<span class="text-slate-500 text-xs font-bold">STC Design System Asset • Internal Use Only</span>
+</div>
+<div class="flex gap-8 text-slate-400 text-[10px] font-bold uppercase tracking-widest">
+<a class="hover:text-primary transition-colors" href="#">Documentation</a>
+<a class="hover:text-primary transition-colors" href="#">Figma Link</a>
+<a class="hover:text-primary transition-colors" href="#">Typeface Licenses</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
