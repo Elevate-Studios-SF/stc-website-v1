@@ -51,13 +51,14 @@ Required sections:
 1) Header
 2) Warm hero with dual CTAs
 3) Reassurance section (confidential, compassionate, no-judgment)
-4) Step-by-step getting started section
-5) Services section
-6) Recovery-focused testimonials
-7) Insurance/access section
-8) FAQ
-9) Final CTA section
-10) Footer with location/contact details
+4) Insurance Accepted logo block
+5) Step-by-step getting started section
+6) Services section
+7) Recovery-focused testimonials
+8) Insurance/access section
+9) FAQ
+10) Final CTA section
+11) Footer with location/contact details
 
 CTA labels:
 - Call for Free Consultation
@@ -75,3 +76,12 @@ Motion requirements:
 - Add CTA micro-motion (hover lift, pulse, shadow shift).
 - Add subtle background motion/parallax for depth.
 - Include reduced-motion fallback for accessibility.
+
+Insurance block requirements:
+- Show accepted insurance logo/text chips for:
+  - Blue Cross Blue Shield
+  - Presbyterian
+  - New Mexico Health Connections
+  - Medicaid Centennial plans
+- Include support line: "Most private PPO plans accepted out-of-network. Verify benefits before intake."
+- If logo assets are unavailable, use branded text chips and flag for asset swap.

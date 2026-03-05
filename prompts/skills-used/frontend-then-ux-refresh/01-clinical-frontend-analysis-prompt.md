@@ -50,13 +50,14 @@ Required sections:
 1) Header with logo/nav/primary CTA
 2) Hero with clear clinical value proposition and dual CTAs
 3) Trust strip (credentials, social proof, local trust)
-4) Services overview (IOP, trauma/mental health support)
-5) Treatment approach section (clear steps/process)
-6) Testimonials section
-7) Insurance/payment access section
-8) FAQ section
-9) Final CTA block
-10) Footer with both locations + contact info
+4) Insurance Accepted logo block
+5) Services overview (IOP, trauma/mental health support)
+6) Treatment approach section (clear steps/process)
+7) Testimonials section
+8) Insurance/payment access section
+9) FAQ section
+10) Final CTA block
+11) Footer with both locations + contact info
 
 CTA labels:
 - Call for Free Consultation
@@ -74,3 +75,12 @@ Motion requirements:
 - Add CTA micro-motion (hover lift, pulse, shadow shift).
 - Add subtle background motion/parallax for depth.
 - Include reduced-motion fallback for accessibility.
+
+Insurance block requirements:
+- Show accepted insurance logo/text chips for:
+  - Blue Cross Blue Shield
+  - Presbyterian
+  - New Mexico Health Connections
+  - Medicaid Centennial plans
+- Include support line: "Most private PPO plans accepted out-of-network. Verify benefits before intake."
+- If logo assets are unavailable, use branded text chips and flag for asset swap.

@@ -53,13 +53,24 @@ Page structure (single-flow desktop):
 1) Header with logo/nav/CTA
 2) Hero with strong value proposition + dual CTAs
 3) Trust strip (credentials/social proof/local trust)
-4) Services overview section
-5) Treatment approach/process section
-6) Testimonials section
-7) Insurance/payment access section
-8) FAQ section
-9) Final CTA section
-10) Footer with logo, locations, legal links
+4) Insurance Accepted logo block (prominent, above services)
+5) Services overview section
+6) Treatment approach/process section
+7) Testimonials section
+8) Insurance/payment access section
+9) FAQ section
+10) Final CTA section
+11) Footer with logo, locations, legal links
+
+INSURANCE LOGO BLOCK (REQUIRED):
+- Title: "In-Network and Insurance-Friendly Care"
+- Include logo grid/chips for:
+  - Blue Cross Blue Shield
+  - Presbyterian
+  - New Mexico Health Connections
+  - Medicaid Centennial plans
+- Include supporting copy: "Most private PPO plans accepted out-of-network. Verify benefits before intake."
+- If exact logos are unavailable in generation context, use branded text chips/placeholders and mark for asset replacement.
 
 CTA labels (do not change):
 - Call for Free Consultation
