@@ -36,6 +36,15 @@ Layout requirements:
 - Desktop single-flow homepage (top nav, full-width sections)
 - No sidebar layout
 
+NAVIGATION MODEL (REQUIRED):
+- Top nav labels: Programs, Approach, Locations, Insurance, About, Resources, Contact
+- Keep one primary CTA button in header: "Call for Free Consultation"
+- Programs dropdown: IOP, OP, Free Mental Health Assessment
+- Approach dropdown: The Solutions Method, Treatment Approach Overview, Therapy Modalities
+- About dropdown: Who We Are, Our Team, Testimonials
+- Move lower-intent links (Photo Tour, legal extras) to footer/resources
+- Keep Programs, Insurance, and Contact one click from homepage
+
 Required sections:
 1) Header
 2) Warm hero with dual CTAs
