@@ -1,5 +1,8 @@
 TITLE: STC Recovery Homepage Modernization (UX Refinement Pass)
 SKILL: ui-ux-pro-max
+WORKFLOW STEP: 3 of 4 (UX)
+INPUT: Use the enhanced frontend-generated recovery screen
+NEXT STEP: Optional second Stitch Prompt Enhancer pass before final generation
 TARGET: Apply this to the previously generated recovery homepage screen
 
 Refinement objective:
@@ -9,6 +12,7 @@ Do not change:
 - Brand colors (#D4E3FC background, #22B610 primary action)
 - Logo assets and placement rules
 - Core section flow unless necessary to improve comprehension
+- CTA labels
 
 Refine for:
 1) Emotional clarity: stronger reassurance and less text friction

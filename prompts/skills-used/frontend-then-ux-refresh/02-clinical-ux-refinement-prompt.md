@@ -1,5 +1,8 @@
 TITLE: STC Clinical Homepage Modernization (UX Refinement Pass)
 SKILL: ui-ux-pro-max
+WORKFLOW STEP: 3 of 4 (UX)
+INPUT: Use the enhanced frontend-generated clinical screen
+NEXT STEP: Optional second Stitch Prompt Enhancer pass before final generation
 TARGET: Apply this to the previously generated clinical homepage screen
 
 Refinement objective:
@@ -9,6 +12,7 @@ Do not change:
 - Brand colors (#D4E3FC background, #22B610 primary action)
 - Logo assets and placement rules
 - Core section order (unless required for stronger user flow)
+- CTA labels
 
 Refine for:
 1) Information hierarchy: clearer headline/subheadline and section priorities

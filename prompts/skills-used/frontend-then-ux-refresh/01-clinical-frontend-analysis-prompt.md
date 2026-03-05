@@ -1,5 +1,7 @@
 TITLE: STC Clinical Homepage Modernization (Frontend Pass)
 SKILL: landing-page-guide-v2
+WORKFLOW STEP: 1 of 4 (Frontend)
+NEXT STEP: Run through Stitch Prompt Enhancer before generation
 PLATFORM: web
 FORM FACTOR: desktop
 CANVAS SIZE: 1920x1080
@@ -24,12 +26,10 @@ Brand system:
 - Body font: Manrope
 
 ASSET LOCK (REQUIRED):
-- Header logo: stc-logo-horizontal.png
-- Footer logo: stc-logo-stacked.png
-- Source URLs:
-  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-horizontal.png
-  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-stacked.png
-- Do not redraw/recolor logos.
+- Use uploaded asset `stc-logo-horizontal.png` in header.
+- Use uploaded asset `stc-logo-stacked.png` in footer.
+- If assets are not uploaded, stop and request upload before generation.
+- Do not redraw, recolor, restyle, crop, or replace logos.
 
 Layout requirements:
 - Desktop single-flow homepage (top nav, full-width sections)
