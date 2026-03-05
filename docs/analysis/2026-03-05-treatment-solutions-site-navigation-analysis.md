@@ -12,8 +12,6 @@ Scope: Information architecture and navigation effectiveness based on live-page 
 ### What appears to work (keep and prioritize)
 1. Services pages align with high-intent visitors:
 - https://treatmentsolutions.org/services/adult-intensive-outpatient-iop/
-- https://treatmentsolutions.org/services/expect-op-program/
-
 2. Conversion support pages are present and should remain prominent:
 - https://treatmentsolutions.org/about/insurance-payment-information/
 - https://treatmentsolutions.org/contact-us/
@@ -53,7 +51,6 @@ Scope: Information architecture and navigation effectiveness based on live-page 
 ### Dropdown structure
 - Programs:
   - Intensive Outpatient (IOP)
-  - Outpatient Program (OP)
   - Free Mental Health Assessment
 - Approach:
   - The Solutions Method

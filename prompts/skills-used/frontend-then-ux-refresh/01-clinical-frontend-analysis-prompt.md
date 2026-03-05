@@ -16,7 +16,7 @@ Content-source analysis requirements:
 - Pull and synthesize messaging from treatmentsolutions.org homepage and key program/about/insurance pages.
 - Preserve factual items to carry over:
   - Two locations: Santa Fe and Albuquerque
-  - Core services: IOP, OP, mental health and trauma support
+  - Core services: IOP, mental health and trauma support
   - Access/fit messaging: free consultation, insurance verification, family support
   - Contact intent: 877-499-1354 and 505-424-3170
 
@@ -40,7 +40,7 @@ Layout requirements:
 NAVIGATION MODEL (REQUIRED):
 - Top nav labels: Programs, Approach, Locations, Insurance, About, Resources, Contact
 - Keep one primary CTA button in header: "Call for Free Consultation"
-- Programs dropdown: IOP, OP, Free Mental Health Assessment
+- Programs dropdown: IOP, Free Mental Health Assessment
 - Approach dropdown: The Solutions Method, Treatment Approach Overview, Therapy Modalities
 - About dropdown: Who We Are, Our Team, Testimonials
 - Move lower-intent links (Photo Tour, legal extras) to footer/resources
@@ -50,7 +50,7 @@ Required sections:
 1) Header with logo/nav/primary CTA
 2) Hero with clear clinical value proposition and dual CTAs
 3) Trust strip (credentials, social proof, local trust)
-4) Services overview (IOP, OP, trauma/mental health support)
+4) Services overview (IOP, trauma/mental health support)
 5) Treatment approach section (clear steps/process)
 6) Testimonials section
 7) Insurance/payment access section

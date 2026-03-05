@@ -14,13 +14,12 @@ Content-source requirements:
 - Analyze and synthesize key messaging from:
   - https://treatmentsolutions.org/
   - https://treatmentsolutions.org/services/adult-intensive-outpatient-iop/
-  - https://treatmentsolutions.org/services/expect-op-program/
   - https://treatmentsolutions.org/about/insurance-payment-information/
   - https://treatmentsolutions.org/about/location-and-directions/
   - https://treatmentsolutions.org/contact-us/
 - Preserve factual carryovers:
   - Santa Fe + Albuquerque locations
-  - IOP and OP programs
+  - IOP program
   - Free consultation + insurance verification
   - Contact numbers: 877-499-1354 and 505-424-3170
 
@@ -44,7 +43,7 @@ ASSET LOCK (REQUIRED):
 NAVIGATION MODEL (REQUIRED):
 - Top nav labels: Programs, Approach, Locations, Insurance, About, Resources, Contact
 - Header CTA button: "Call for Free Consultation"
-- Programs dropdown: IOP, OP, Free Mental Health Assessment
+- Programs dropdown: IOP, Free Mental Health Assessment
 - Approach dropdown: The Solutions Method, Treatment Approach Overview, Therapy Modalities
 - About dropdown: Who We Are, Our Team, Testimonials
 - Move low-intent links (Photo Tour, legal extras) to footer/resources

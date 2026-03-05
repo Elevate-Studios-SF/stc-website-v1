@@ -16,7 +16,7 @@ Content-source analysis requirements:
 - Pull themes from treatmentsolutions.org home/about/services/insurance pages.
 - Preserve factual carryovers:
   - Santa Fe + Albuquerque presence
-  - IOP/OP and ongoing support pathway
+  - IOP and ongoing support pathway
   - Family participation and supportive environment
   - Free consultation and insurance verification
   - Contact numbers: 877-499-1354 and 505-424-3170
@@ -41,7 +41,7 @@ Layout requirements:
 NAVIGATION MODEL (REQUIRED):
 - Top nav labels: Programs, Approach, Locations, Insurance, About, Resources, Contact
 - Keep one primary CTA button in header: "Call for Free Consultation"
-- Programs dropdown: IOP, OP, Free Mental Health Assessment
+- Programs dropdown: IOP, Free Mental Health Assessment
 - Approach dropdown: The Solutions Method, Treatment Approach Overview, Therapy Modalities
 - About dropdown: Who We Are, Our Team, Testimonials
 - Move lower-intent links (Photo Tour, legal extras) to footer/resources

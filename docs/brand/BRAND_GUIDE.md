@@ -142,7 +142,6 @@ This is the required navigation structure for homepage and landing-page prompts.
 ### Required Dropdowns
 - Programs:
   - Intensive Outpatient (IOP)
-  - Outpatient Program (OP)
   - Free Mental Health Assessment
 - Approach:
   - The Solutions Method

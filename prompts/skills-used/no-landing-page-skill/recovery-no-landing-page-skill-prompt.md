@@ -39,7 +39,7 @@ Must include:
 - Warm hero with two CTA buttons
 - Reassurance section
 - Step-by-step journey section
-- Services section (IOP, OP, teletherapy, family support)
+- Services section (IOP, teletherapy, family support)
 - Recovery-focused testimonials
 - Insurance/access section
 - FAQ section

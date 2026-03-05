@@ -39,7 +39,7 @@ Use a high-converting landing page architecture with these sections:
 1) Header context row
 2) Hero + dual CTA
 3) Credibility strip
-4) Services matrix (IOP, OP, teletherapy, family support)
+4) Services matrix (IOP, teletherapy, family support)
 5) Treatment methodology section
 6) Testimonials
 7) Insurance verification

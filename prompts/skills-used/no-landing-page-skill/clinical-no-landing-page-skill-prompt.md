@@ -31,7 +31,7 @@ Desktop composition requirements:
 
 Content goals:
 - Communicate clinical credibility and trust
-- Explain core services (IOP, OP, teletherapy, family support)
+- Explain core services (IOP, teletherapy, family support)
 - Drive consultation and assessment conversions
 
 Must include:
