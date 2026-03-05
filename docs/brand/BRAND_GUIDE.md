@@ -100,3 +100,39 @@ STC should feel stable, clinically credible, and supportive. Visual choices shou
   - `stc-logo-stacked.svg` (future vector export)
   - `stc-logo-horizontal.svg` (future vector export)
 - For production websites, prefer SVG for crisp rendering and smaller payload.
+
+## 12. Required Navigation Model (Global Standard)
+This is the required navigation structure for homepage and landing-page prompts.
+
+### Primary Header Nav
+- Programs
+- Approach
+- Locations
+- Insurance
+- About
+- Resources
+- Contact
+- Primary CTA button: `Call for Free Consultation`
+
+### Required Dropdowns
+- Programs:
+  - Intensive Outpatient (IOP)
+  - Outpatient Program (OP)
+  - Free Mental Health Assessment
+- Approach:
+  - The Solutions Method
+  - Treatment Approach Overview
+  - Therapy Modalities
+- About:
+  - Who We Are
+  - Our Team
+  - Testimonials
+
+### Navigation Rules
+- Keep Programs, Insurance, and Contact one click from the homepage.
+- Keep top-level nav concise (7 labels + 1 CTA).
+- Move lower-intent links (for example, Photo Tour and legal extras) to footer/resources.
+- Keep desktop navigation in a top header (no sidebar navigation pattern).
+
+### Prompt Inheritance Rule
+All future prompts (Stitch, frontend, UX, and enhancement prompts) must inherit this navigation model unless explicitly overridden by project requirements.
