@@ -21,8 +21,26 @@ STC should feel stable, clinically credible, and supportive. Visual choices shou
 - `#22B610` CTA + `#FFFFFF` text
 
 ## 3. Typography
-- Display/Headlines: Fraunces
-- Body/UI: Manrope
+- Preferred primary font: `Tahoma`
+- Default use:
+  - Body/UI: `Tahoma`
+  - Buttons/Labels/Nav: `Tahoma`
+  - Forms: `Tahoma`
+
+### Supporting Font Options (approved pairings with Tahoma)
+- Heading option A (recommended): `Georgia`
+- Heading option B: `Fraunces`
+- Heading option C: `Merriweather`
+- Heading option D: `Source Serif 4`
+
+### Sans-serif support options (when Tahoma unavailable)
+- `Verdana`
+- `Segoe UI`
+- `Arial`
+
+### Fallback stacks
+- Body/UI stack: `Tahoma, Verdana, Segoe UI, Arial, sans-serif`
+- Heading serif stack: `Georgia, Merriweather, Source Serif 4, serif`
 
 ## 3.1 Logo System
 - Primary logo (stacked): emblem centered above wordmark
