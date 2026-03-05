@@ -51,6 +51,15 @@ ASSET LOCK (REQUIRED):
   - Header contains visible STC horizontal logo image.
   - Footer contains visible STC stacked logo image.
   - No missing-image state, no empty image frame, no generic medical icon replacing logo.
+- Hard fail conditions (must regenerate if any are true):
+  - Any generated/synthetic logo appears (including acronym-only marks like `STC`).
+  - Header logo does not contain the official `SOLUTIONS TREATMENT CENTER` wordmark lockup.
+  - Footer logo does not use the official stacked STC lockup.
+  - Any logo appears as a custom text rendering instead of the provided image asset.
+- Logo implementation instruction (explicit):
+  - Implement header/footer logos as image nodes only, sourced from the exact locked asset URLs (or uploaded fallback files).
+  - Do not create, typeset, or invent any logo text (for example, `STC`, taglines, or substitutes).
+  - If logos cannot be rendered from locked assets, stop and return `LOGO ASSET LOAD FAILURE` instead of substituting.
 
 NAVIGATION MODEL (REQUIRED):
 - Top nav labels: Programs, Approach, Locations, Insurance, About, Resources, Contact
