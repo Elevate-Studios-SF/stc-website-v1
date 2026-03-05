@@ -1,0 +1,17 @@
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# OS/editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Logs and temp
+*.log
+.tmp/

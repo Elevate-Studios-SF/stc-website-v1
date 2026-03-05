@@ -9,7 +9,7 @@ NAVIGATION ENFORCEMENT: top header navigation
 Create a desktop website landing page for Solutions Treatment Center (STC), emotional/recovery direction with clinical trust.
 
 Brand tokens:
-- Background #1F1CDE
+- Background #D4E3FC
 - Surfaces #D4E3FC
 - Primary CTA #22B610
 - Heading font Fraunces

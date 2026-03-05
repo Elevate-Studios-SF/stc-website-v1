@@ -9,7 +9,7 @@ NAVIGATION ENFORCEMENT: top header navigation
 Design a desktop homepage for Solutions Treatment Center (STC) in New Mexico.
 
 Use this style system:
-- Background: #1F1CDE
+- Background: #D4E3FC
 - Surface cards: #D4E3FC
 - Primary action color: #22B610
 - Headings: Fraunces
