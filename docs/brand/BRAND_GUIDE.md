@@ -161,3 +161,12 @@ This is the required navigation structure for homepage and landing-page prompts.
 
 ### Prompt Inheritance Rule
 All future prompts (Stitch, frontend, UX, and enhancement prompts) must inherit this navigation model unless explicitly overridden by project requirements.
+
+## 13. Brand System Extensions
+Use these documents as required references during page design, prompting, and QA:
+- `docs/brand/MOOD_BOARD.md`
+- `docs/brand/TYPOGRAPHY_BOARD.md`
+- `docs/brand/SEMANTIC_TOKENS.md`
+- `docs/brand/COMPONENT_STATES.md`
+- `docs/brand/IMAGERY_AND_ICONOGRAPHY.md`
+- `docs/brand/BRAND_QA_CHECKLIST.md`
