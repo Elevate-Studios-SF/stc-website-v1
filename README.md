@@ -10,8 +10,7 @@ Project workspace for STC brand, prompt, and Stitch artifacts.
 ## Current Projects
 
 - [stc-typography-mood-board-v1](./stitch-projects/stc-typography-mood-board-v1/)
-- Live preview (Gist): [View as web page](https://gistcdn.githack.com/Elevate-Studios-SF/0252a91cf15cc5e81144d48cfc6bbd44/raw/15abe810c6abfbe546ae9d530c966fbac46c390e/stc-typography-mood-board-v1.html)
-- Source Gist: [gist.github.com/Elevate-Studios-SF/0252a91cf15cc5e81144d48cfc6bbd44](https://gist.github.com/Elevate-Studios-SF/0252a91cf15cc5e81144d48cfc6bbd44)
+- Live preview (GitHub Pages): [View as web page](https://elevate-studios-sf.github.io/stc-website-v1/stitch-projects/stc-typography-mood-board-v1/exports/stc-typography-mood-board-v1.html)
 
 ## Project Preview
 
