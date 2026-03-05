@@ -6,6 +6,12 @@ NEXT STEP: Optional second Stitch Prompt Enhancer pass before final generation
 TARGET: Apply this to the previously generated clinical homepage screen
 
 Refinement objective:
+Keep a high-motion experience while preserving clarity and conversion.
+
+Tech target:
+- Next.js 14+ (App Router) + TypeScript + Tailwind CSS
+- Framer Motion + GSAP (ScrollTrigger) + Lenis
+
 Keep existing content architecture, then improve UX quality, readability, conversion flow, and accessibility without changing brand system.
 
 Do not change:
@@ -21,8 +27,10 @@ Refine for:
 4) Accessibility: WCAG AA contrast, focus states, larger tap targets
 5) Interaction quality: meaningful hover/focus states and clean transitions
 6) Desktop rhythm: consistent spacing, section cadence, improved visual grouping
+7) Motion polish: section choreography, scroll-timed reveals, and CTA attention cues
 
 Output requirements:
 - Keep single-flow desktop layout
 - Retain all key STC conversion goals and contact actions
 - Return an updated screen that feels clearly more modern and easier to use
+- Include reduced-motion variant behavior for users with `prefers-reduced-motion`.

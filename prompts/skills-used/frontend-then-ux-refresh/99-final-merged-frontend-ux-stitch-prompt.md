@@ -4,6 +4,8 @@ PLATFORM: web
 FORM FACTOR: desktop
 CANVAS SIZE: 1920x1080
 CONSTRAINT: no phone UI, no mobile frame, desktop-only composition
+IMPLEMENTATION TARGET: Next.js 14+ (App Router) + TypeScript + Tailwind CSS
+MOTION STACK (REQUIRED): Framer Motion + GSAP (ScrollTrigger) + Lenis smooth scroll
 
 Objective:
 Generate a modernized, conversion-focused Solutions Treatment Center homepage using treatmentsolutions.org as content source, with UX refinement quality baked in.
@@ -72,6 +74,14 @@ UX refinement requirements (apply during generation):
 - Improve accessibility: WCAG AA contrast, visible focus states, legible text sizes
 - Improve interaction quality: clean hover/focus states and calm transitions
 - Keep single-flow desktop rhythm and visual consistency
+- Use high-motion presentation across sections:
+  - Hero entrance timeline
+  - Staggered reveal for cards/testimonials
+  - Scroll-linked parallax/background drift
+  - Animated counters/trust metrics
+  - CTA micro-interactions (glow, lift, pulse)
+  - Section transition choreography between major blocks
+- Respect `prefers-reduced-motion` with reduced/disabled non-essential effects
 
 Output quality bar:
 - Must look modern, trustworthy, and easier to navigate than current site

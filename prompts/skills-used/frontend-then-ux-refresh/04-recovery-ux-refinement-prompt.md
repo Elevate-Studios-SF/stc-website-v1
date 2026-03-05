@@ -6,6 +6,12 @@ NEXT STEP: Optional second Stitch Prompt Enhancer pass before final generation
 TARGET: Apply this to the previously generated recovery homepage screen
 
 Refinement objective:
+Keep a high-motion experience while preserving emotional trust and readability.
+
+Tech target:
+- Next.js 14+ (App Router) + TypeScript + Tailwind CSS
+- Framer Motion + GSAP (ScrollTrigger) + Lenis
+
 Preserve the recovery tone while improving usability, structure clarity, and conversion path.
 
 Do not change:
@@ -21,8 +27,10 @@ Refine for:
 4) Accessibility: contrast, focus states, legible body size
 5) Trust design: improve social proof readability and credibility cues
 6) Desktop polish: modern spacing rhythm, cleaner component consistency
+7) Motion polish: empathy-forward transitions, scroll reveals, and CTA attention cues
 
 Output requirements:
 - Keep single-flow desktop layout
 - Maintain all key STC actions and local contact details
 - Return an updated screen that is visibly easier to navigate and more trustworthy
+- Include reduced-motion variant behavior for users with `prefers-reduced-motion`.

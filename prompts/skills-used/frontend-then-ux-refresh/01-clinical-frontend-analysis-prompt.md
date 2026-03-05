@@ -6,6 +6,8 @@ PLATFORM: web
 FORM FACTOR: desktop
 CANVAS SIZE: 1920x1080
 CONSTRAINT: no phone UI, no mobile frame
+IMPLEMENTATION TARGET: Next.js 14+ (App Router) + TypeScript + Tailwind CSS
+MOTION STACK (REQUIRED): Framer Motion + GSAP (ScrollTrigger) + Lenis
 
 Objective:
 Modernize the homepage for Solutions Treatment Center using content and structure grounded in https://treatmentsolutions.org.
@@ -65,3 +67,10 @@ Copy rules:
 - Concise, credible, non-hype language
 - Improve scanability over current site (short blocks, bullets, clear hierarchy)
 - Keep local New Mexico relevance visible
+
+Motion requirements:
+- Use animated hero intro timeline and staggered section reveals.
+- Add scroll-triggered transitions for services, approach, and testimonials.
+- Add CTA micro-motion (hover lift, pulse, shadow shift).
+- Add subtle background motion/parallax for depth.
+- Include reduced-motion fallback for accessibility.

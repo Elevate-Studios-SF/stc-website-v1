@@ -60,9 +60,16 @@ STC should feel stable, clinically credible, and supportive. Visual choices shou
 - Navigation: simple, predictable, always show contact action
 
 ## 6. Motion
-- Keep motion purposeful and calm
-- Use fade/slide transitions (150ms-300ms)
-- Avoid aggressive zooms or distracting loops
+- Motion-first presentation is encouraged for modern page experience.
+- Default stack for implementation: Next.js + Framer Motion + GSAP/ScrollTrigger + Lenis.
+- Apply animation across all major sections:
+  - Hero timeline entrance
+  - Staggered card reveals
+  - Scroll-triggered transitions
+  - CTA micro-interactions
+  - Subtle background/parallax movement
+- Keep motion coherent and intentional (avoid random effects).
+- Always support `prefers-reduced-motion` by reducing/turning off non-essential animation.
 
 ## 7. Imagery
 - Use real, warm, human-centered imagery
