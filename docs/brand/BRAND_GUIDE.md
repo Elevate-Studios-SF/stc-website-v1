@@ -9,7 +9,7 @@ STC should feel stable, clinically credible, and supportive. Visual choices shou
 - Deep Indigo: `#1F1CDE`
 - Soft Blue: `#D4E3FC`
 - Healing Green: `#22B610`
-- Treatment Center Logo Gray: `#545454`
+- Treatment Center Logo Color: `#6FB3AC`
 
 ### Usage Ratios
 - 60% Deep Indigo (structure, background, navigation)
