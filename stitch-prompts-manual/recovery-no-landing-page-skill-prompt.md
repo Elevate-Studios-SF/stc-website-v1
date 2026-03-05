@@ -18,6 +18,9 @@ Use this style system:
 ASSET LOCK (REQUIRED):
 - Use uploaded asset `stc-logo-horizontal.png` in the header.
 - Use uploaded asset `stc-logo-stacked.png` in the footer.
+- Source of truth (GitHub):
+  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-horizontal.png
+  - https://raw.githubusercontent.com/Elevate-Studios-SF/stc-website-v1/main/docs/brand/assets/stc-logo-stacked.png
 - Do not redraw, recolor, restyle, crop, or replace logos.
 - Keep aspect ratio locked and preserve clear space.
 
