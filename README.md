@@ -11,6 +11,10 @@ Project workspace for STC brand, prompt, and Stitch artifacts.
 
 - [stc-typography-mood-board-v1](./stitch-projects/stc-typography-mood-board-v1/)
 
+## Project Preview
+
+![STC Typography Mood Board v1](./stitch-projects/stc-typography-mood-board-v1/assets/stc-typography-mood-board-v1.png)
+
 ## View As A Web Page
 
 1. Open `index.html` locally in your browser, or run a local server from repo root:
