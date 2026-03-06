@@ -510,7 +510,7 @@ const FAQ = () => {
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className="border border-indigo-deep/10 rounded-2xl overflow-hidden bg-white/85"
+              className="border border-indigo-deep/10 rounded-2xl overflow-hidden bg-white/65"
             >
               <button
                 onClick={() =>

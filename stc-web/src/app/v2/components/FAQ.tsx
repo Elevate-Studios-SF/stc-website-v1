@@ -24,7 +24,7 @@ export default function FAQ() {
           {faqs.map((faq) => (
             <details
               key={faq.q}
-              className="group border border-indigo-deep/10 rounded-2xl overflow-hidden bg-white/85"
+              className="group border border-indigo-deep/10 rounded-2xl overflow-hidden bg-white/65"
             >
               <summary className="cursor-pointer list-none p-6 text-left flex justify-between items-center font-bold text-slate-800 text-lg hover:bg-indigo-deep/5 transition-colors">
                 {faq.q}
