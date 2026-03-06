@@ -4,8 +4,8 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 const here = dirname(fileURLToPath(import.meta.url));
-const appRoot = join(here, "..", "app");
+const appRoot = join(here, "..", "src", "app");
 
-assert.ok(existsSync(join(appRoot, "page.tsx")), "Missing app/page.tsx");
-assert.ok(existsSync(join(appRoot, "v2", "page.tsx")), "Missing app/v2/page.tsx");
+assert.ok(existsSync(join(appRoot, "page.tsx")), "Missing src/app/page.tsx");
+assert.ok(existsSync(join(appRoot, "v2", "page.tsx")), "Missing src/app/v2/page.tsx");
 console.log("smoke: required pages exist");
