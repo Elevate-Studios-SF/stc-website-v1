@@ -9,13 +9,13 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <header className="bg-white/95 text-indigo-deep sticky top-0 z-40 shadow-lg backdrop-blur">
+    <header className="bg-[#e8f1ff] text-indigo-deep sticky top-0 z-40 shadow-lg backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
             src="/stc-logo-horizontal.png"
             alt="Solutions Treatment Center"
-            className="h-8 w-auto"
+            className="h-15 w-auto"
           />
         </div>
         <nav className="hidden lg:flex items-center gap-8 text-sm font-medium">

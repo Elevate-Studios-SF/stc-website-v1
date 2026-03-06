@@ -15,5 +15,6 @@ assert.ok(existsSync(join(appRoot, "pixel.css")), "Missing src/app/pixel.css");
 assert.ok(existsSync(join(appRoot, "v2", "styles.css")), "Missing src/app/v2/styles.css");
 assert.ok(existsSync(join(repoRoot, ".tmp", "stc-mockup")), "Missing temp clone");
 assert.ok(existsSync(join(publicRoot, "stc-logo-horizontal.png")), "Missing logo in public");
+assert.ok(existsSync(join(publicRoot, "stc-logo-stacked.png")), "Missing stacked logo in public");
 assert.ok(existsSync(join(projectRoot, "VERIFY.md")), "Missing VERIFY.md");
 console.log("smoke: required pages exist");

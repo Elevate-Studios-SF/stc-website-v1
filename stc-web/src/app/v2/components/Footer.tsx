@@ -8,14 +8,14 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white/95 text-indigo-deep pt-24 pb-12 border-t border-indigo-deep/10">
+    <footer className="bg-[#e8f1ff] text-indigo-deep pt-24 pb-12 border-t border-indigo-deep/10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-4 gap-16 mb-16">
         <div className="col-span-1 lg:col-span-2">
           <div className="flex items-center gap-3 mb-8">
             <img
-              src="/stc-logo-horizontal.png"
+              src="/stc-logo-stacked.png"
               alt="Solutions Treatment Center"
-              className="h-10 w-auto"
+              className="h-20 w-auto"
             />
           </div>
           <p className="text-slate-700 max-w-md leading-relaxed mb-8">
