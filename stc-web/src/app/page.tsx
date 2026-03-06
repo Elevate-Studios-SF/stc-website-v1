@@ -614,7 +614,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#e8f1ff] text-indigo-deep pt-24 pb-12 border-t border-indigo-deep/10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-4 gap-16 mb-16">
-        <div className="col-span-1 lg:col-span-2">
+        <div className="col-span-1 lg:col-span-2 text-center">
           <div className="flex items-center justify-center mb-8">
             <img
               src="/stc-logo-stacked.png"
@@ -622,7 +622,7 @@ const Footer = () => {
               className="h-40 w-auto"
             />
           </div>
-          <p className="text-slate-700 max-w-md leading-relaxed mb-8">
+          <p className="text-slate-700 max-w-md mx-auto leading-relaxed mb-8">
             Providing clinically excellent and compassionate outpatient care for
             addiction and mental health in New Mexico. Accredited by The Joint
             Commission and LegitScript certified.
