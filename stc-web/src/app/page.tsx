@@ -319,7 +319,7 @@ const CareTracks = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
           {[
             {
               icon: <Users className="w-8 h-8" />,
@@ -370,7 +370,7 @@ const CareTracks = () => {
 
 const Insurance = () => {
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="pt-10 pb-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
         <motion.div
           initial={{ opacity: 0, x: -30 }}

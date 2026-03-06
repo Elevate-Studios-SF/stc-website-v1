@@ -9,7 +9,7 @@ const insurers = [
 
 export default function Insurance() {
   return (
-    <section className="py-24 bg-white">
+    <section className="pt-10 pb-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
           <h2 className="text-4xl font-bold text-indigo-deep mb-6">
