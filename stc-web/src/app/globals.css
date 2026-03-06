@@ -32,8 +32,16 @@
 
   .stc-texture {
     background-color: #eef3ff;
-    background-image: url("/stc-paper-texture.jpg");
+    background-image:
+      linear-gradient(
+        90deg,
+        rgba(212, 227, 252, 0.6) 0%,
+        rgba(232, 241, 255, 0.85) 50%,
+        rgba(212, 227, 252, 0.6) 100%
+      ),
+      url("/stc-paper-texture.jpg");
     background-repeat: repeat;
-    background-size: 512px 512px;
+    background-size: 220px 220px;
+    background-blend-mode: multiply;
   }
 }
