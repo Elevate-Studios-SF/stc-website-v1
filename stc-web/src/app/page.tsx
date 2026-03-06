@@ -24,7 +24,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-indigo-deep text-white sticky top-0 z-50 shadow-lg">
+    <header className="bg-white/95 text-indigo-deep sticky top-0 z-50 shadow-lg backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
@@ -53,7 +53,7 @@ const Navbar = () => {
           ))}
           <a
             href="#"
-            className="hover:text-primary transition-colors border-l border-white/20 pl-8"
+            className="hover:text-primary transition-colors border-l border-indigo-deep/20 pl-8"
           >
             Contact
           </a>
@@ -63,7 +63,10 @@ const Navbar = () => {
           <button className="bg-primary hover:bg-opacity-90 text-white px-6 py-2.5 rounded-lg font-bold text-sm transition-all shadow-md hidden sm:block">
             Call for Free Consultation
           </button>
-          <button className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
+          <button
+            className="lg:hidden text-indigo-deep"
+            onClick={() => setIsOpen(!isOpen)}
+          >
             {isOpen ? <X /> : <Menu />}
           </button>
         </div>
@@ -75,28 +78,28 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-indigo-deep border-t border-white/10 overflow-hidden"
-          >
-            <div className="px-6 py-8 flex flex-col gap-4">
-              {[
-                "Programs",
-                "Approach",
-                "Locations",
-                "Insurance",
-                "About",
-                "Resources",
-                "Contact",
-              ].map((item) => (
-                <a
-                  key={item}
-                  href="#"
-                  className="text-lg font-medium hover:text-primary transition-colors"
-                >
-                  {item}
-                </a>
-              ))}
-              <button className="bg-primary text-white px-6 py-4 rounded-lg font-bold mt-4">
-                Call for Free Consultation
+          className="lg:hidden bg-white border-t border-indigo-deep/10 overflow-hidden"
+        >
+          <div className="px-6 py-8 flex flex-col gap-4">
+            {[
+              "Programs",
+              "Approach",
+              "Locations",
+              "Insurance",
+              "About",
+              "Resources",
+              "Contact",
+            ].map((item) => (
+              <a
+                key={item}
+                href="#"
+                className="text-lg font-medium hover:text-primary transition-colors text-indigo-deep"
+              >
+                {item}
+              </a>
+            ))}
+            <button className="bg-primary text-white px-6 py-4 rounded-lg font-bold mt-4">
+              Call for Free Consultation
               </button>
             </div>
           </motion.div>

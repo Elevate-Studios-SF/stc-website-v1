@@ -9,7 +9,7 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <header className="bg-indigo-deep text-white sticky top-0 z-40 shadow-lg">
+    <header className="bg-white/95 text-indigo-deep sticky top-0 z-40 shadow-lg backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
@@ -26,7 +26,7 @@ export default function Navbar() {
           ))}
           <a
             href="#"
-            className="hover:text-primary transition-colors border-l border-white/20 pl-8"
+            className="hover:text-primary transition-colors border-l border-indigo-deep/20 pl-8"
           >
             Contact
           </a>
@@ -40,7 +40,7 @@ export default function Navbar() {
           </a>
           <a
             href="#"
-            className="md:hidden text-sm font-semibold border border-white/30 px-4 py-2 rounded-full"
+            className="md:hidden text-sm font-semibold border border-indigo-deep/30 px-4 py-2 rounded-full"
           >
             Menu
           </a>
