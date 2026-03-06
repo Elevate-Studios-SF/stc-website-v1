@@ -35,9 +35,9 @@
     background-image:
       linear-gradient(
         90deg,
-        rgba(212, 227, 252, 0.3) 0%,
-        rgba(232, 241, 255, 0.45) 50%,
-        rgba(212, 227, 252, 0.3) 100%
+        rgba(212, 227, 252, 0.2) 0%,
+        rgba(232, 241, 255, 0.32) 50%,
+        rgba(212, 227, 252, 0.2) 100%
       ),
       url("/stc-paper-texture.jpg");
     background-repeat: no-repeat;
