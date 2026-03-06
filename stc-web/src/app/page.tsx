@@ -410,7 +410,7 @@ const Insurance = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="flex-1 w-full bg-primary/10 rounded-3xl p-12 text-center border-2 border-dashed border-primary/30 glass-card"
+          className="flex-1 w-full bg-white/80 rounded-3xl p-12 text-center border border-indigo-deep/10 shadow-lg"
         >
           <CreditCard className="w-16 h-16 text-primary mx-auto mb-6" />
           <h3 className="text-2xl font-bold text-slate-800 mb-4">

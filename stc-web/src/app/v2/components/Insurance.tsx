@@ -36,7 +36,7 @@ export default function Insurance() {
           </p>
         </div>
 
-        <div className="v2-glass rounded-3xl p-12 text-center border-2 border-dashed border-primary/30 bg-primary/10">
+        <div className="rounded-3xl p-12 text-center border border-indigo-deep/10 shadow-lg bg-white/80">
           <h3 className="text-2xl font-bold text-slate-800 mb-4">
             Fast Benefit Verification
           </h3>
