@@ -18,7 +18,7 @@ export default function Footer() {
               className="h-10 w-auto"
             />
           </div>
-          <p className="text-slate-600 max-w-md leading-relaxed mb-8">
+          <p className="text-slate-700 max-w-md leading-relaxed mb-8">
             Providing clinically excellent and compassionate outpatient care for
             addiction and mental health in New Mexico. Accredited by The Joint
             Commission and LegitScript certified.
@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="space-y-8">
             <div>
               <p className="font-bold mb-2">Santa Fe</p>
-              <p className="text-slate-600 text-sm leading-relaxed">
+              <p className="text-slate-700 text-sm leading-relaxed">
                 2209 Miguel Chavez Rd
                 <br />
                 Santa Fe, NM 87505
@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="font-bold mb-2">Albuquerque Area</p>
-              <p className="text-slate-600 text-sm leading-relaxed">
+              <p className="text-slate-700 text-sm leading-relaxed">
                 Serving the greater Albuquerque metro area with specialized IOP
                 programs.
               </p>
@@ -52,7 +52,7 @@ export default function Footer() {
           <h4 className="text-primary font-bold mb-8 uppercase tracking-widest text-sm">
             Quick Links
           </h4>
-          <ul className="space-y-4 text-slate-600 text-sm">
+          <ul className="space-y-4 text-indigo-deep/80 text-sm">
             {quickLinks.map((link) => (
               <li key={link}>
                 <a className="hover:text-primary transition-colors" href="#">
@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 border-t border-indigo-deep/10 pt-12 flex flex-col md:flex-row justify-between items-center text-slate-500 text-xs gap-6">
+      <div className="max-w-7xl mx-auto px-6 border-t border-indigo-deep/10 pt-12 flex flex-col md:flex-row justify-between items-center text-indigo-deep/70 text-xs gap-6">
         <p>© 2024 Solutions Treatment Center. All rights reserved.</p>
         <div className="flex gap-8">
           <a className="hover:text-primary transition-colors" href="#">
