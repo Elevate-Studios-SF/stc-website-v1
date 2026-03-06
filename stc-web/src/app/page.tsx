@@ -226,7 +226,7 @@ const SolutionsMethod = () => {
 
 const CareTracks = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 stc-texture">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <motion.span
@@ -370,7 +370,7 @@ const CareTracks = () => {
 
 const Insurance = () => {
   return (
-    <section className="pt-10 pb-24 bg-white overflow-hidden">
+    <section className="pt-10 pb-24 stc-texture overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
@@ -501,7 +501,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 stc-texture">
       <div className="max-w-3xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-indigo-deep mb-12 text-center">
           Frequently Asked Questions

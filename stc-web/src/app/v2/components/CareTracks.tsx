@@ -32,7 +32,7 @@ const programs = [
 
 export default function CareTracks() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 stc-texture">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">

@@ -15,7 +15,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 stc-texture">
       <div className="max-w-3xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-indigo-deep mb-12 text-center">
           Frequently Asked Questions
