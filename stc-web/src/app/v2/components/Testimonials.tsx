@@ -24,7 +24,7 @@ export default function Testimonials() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {testimonials.map((item) => (
-            <div key={item.author} className="bg-white p-12 rounded-3xl shadow-xl">
+            <div key={item.author} className="bg-white/80 p-12 rounded-3xl shadow-xl">
               <p className="text-xl italic text-slate-700 leading-relaxed mb-8">
                 "{item.quote}"
               </p>

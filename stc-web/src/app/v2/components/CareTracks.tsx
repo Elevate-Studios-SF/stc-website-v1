@@ -47,7 +47,7 @@ export default function CareTracks() {
           </p>
         </div>
 
-        <div className="v2-glass rounded-3xl shadow-2xl overflow-hidden border border-indigo-deep/10">
+        <div className="v2-glass rounded-3xl shadow-2xl overflow-hidden border border-indigo-deep/10 bg-white/70">
           <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="lg:col-span-1 bg-indigo-deep p-12 text-white flex flex-col justify-center">
               <span className="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">
@@ -81,9 +81,9 @@ export default function CareTracks() {
           {programs.map((item) => (
             <div
               key={item.title}
-              className="bg-white p-8 rounded-2xl border border-indigo-deep/5 flex gap-6 items-start shadow-lg"
+              className="bg-white/80 p-8 rounded-2xl border border-indigo-deep/5 flex gap-6 items-start shadow-lg"
             >
-              <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center text-primary font-bold">
+              <div className="w-12 h-12 bg-primary/15 rounded-xl flex items-center justify-center text-primary font-bold">
                 {item.title.split(" ")[0]}
               </div>
               <div>

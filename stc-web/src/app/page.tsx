@@ -258,7 +258,7 @@ const CareTracks = () => {
           </motion.p>
         </div>
 
-        <div className="rounded-3xl shadow-2xl overflow-hidden border border-indigo-deep/10 bg-white/50 backdrop-blur-sm">
+        <div className="rounded-3xl shadow-2xl overflow-hidden border border-indigo-deep/10 bg-white/70 backdrop-blur-sm">
           <div className="grid grid-cols-1 lg:grid-cols-3">
             <div className="lg:col-span-1 bg-indigo-deep p-12 text-white flex flex-col justify-center">
               <span className="text-primary font-bold uppercase tracking-widest text-sm mb-4 block">
@@ -337,9 +337,9 @@ const CareTracks = () => {
             <motion.div
               key={i}
               whileHover={{ y: -5 }}
-              className="bg-white p-8 rounded-2xl border border-indigo-deep/5 flex gap-6 items-start shadow-lg"
+              className="bg-white/80 p-8 rounded-2xl border border-indigo-deep/5 flex gap-6 items-start shadow-lg"
             >
-              <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
+              <div className="w-16 h-16 bg-primary/15 rounded-xl flex items-center justify-center text-primary flex-shrink-0">
                 {item.icon}
               </div>
               <div>
@@ -410,7 +410,7 @@ const Insurance = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="flex-1 w-full bg-primary/5 rounded-3xl p-12 text-center border-2 border-dashed border-primary/30 glass-card"
+          className="flex-1 w-full bg-primary/10 rounded-3xl p-12 text-center border-2 border-dashed border-primary/30 glass-card"
         >
           <CreditCard className="w-16 h-16 text-primary mx-auto mb-6" />
           <h3 className="text-2xl font-bold text-slate-800 mb-4">
@@ -459,7 +459,7 @@ const Testimonials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.2 }}
-              className="bg-white p-12 rounded-3xl relative shadow-xl"
+              className="bg-white/80 p-12 rounded-3xl relative shadow-xl"
             >
               <Quote className="w-12 h-12 text-primary/10 absolute top-8 right-10" />
               <p className="text-xl italic text-slate-700 leading-relaxed mb-8">
