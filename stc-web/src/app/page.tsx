@@ -126,7 +126,7 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 1.2 }}
         >
           <span className="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">
             The Solutions Method™
@@ -172,6 +172,7 @@ const SolutionsMethod = () => {
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
+            transition={{ duration: 1.1 }}
             className="grid grid-cols-2 gap-4"
           >
             <div
@@ -194,6 +195,7 @@ const SolutionsMethod = () => {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
+            transition={{ duration: 1.1 }}
           >
             <span className="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">
               Transformational Care
@@ -233,6 +235,7 @@ const CareTracks = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
+            transition={{ duration: 1.1 }}
             className="text-primary font-bold tracking-widest uppercase text-xs mb-4 block"
           >
             Comprehensive Care Tracks
@@ -241,7 +244,7 @@ const CareTracks = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
+            transition={{ delay: 0.1, duration: 1.1 }}
             className="text-4xl md:text-5xl font-bold text-indigo-deep mb-6"
           >
             Comprehensive Care Tracks
@@ -250,7 +253,7 @@ const CareTracks = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.2, duration: 1.1 }}
             className="text-slate-600 max-w-2xl mx-auto text-lg"
           >
             Flexible programs designed to fit your life, combining clinical
@@ -302,7 +305,7 @@ const CareTracks = () => {
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: i * 0.1 }}
+                  transition={{ delay: i * 0.1, duration: 1.1 }}
                 >
                   <div className="flex items-center gap-3 mb-4">
                     {item.icon}
@@ -376,6 +379,7 @@ const Insurance = () => {
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
+          transition={{ duration: 1.1 }}
           className="flex-1"
         >
           <h2 className="text-4xl font-bold text-indigo-deep mb-6">
@@ -410,6 +414,7 @@ const Insurance = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
+          transition={{ duration: 1.1 }}
           className="flex-1 w-full bg-white/80 rounded-3xl p-12 text-center border border-indigo-deep/10 shadow-lg"
         >
           <CreditCard className="w-16 h-16 text-primary mx-auto mb-6" />
@@ -458,7 +463,7 @@ const Testimonials = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.2 }}
+              transition={{ delay: i * 0.2, duration: 1.1 }}
               className="bg-white/80 p-12 rounded-3xl relative shadow-xl"
             >
               <Quote className="w-12 h-12 text-primary/10 absolute top-8 right-10" />
@@ -529,6 +534,7 @@ const FAQ = () => {
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.6 }}
                     className="overflow-hidden"
                   >
                     <div className="p-6 pt-0 text-slate-600 leading-relaxed">
@@ -557,6 +563,7 @@ const FinalCTA = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
+          transition={{ duration: 1.1 }}
           className="text-4xl md:text-5xl font-bold mb-6"
         >
           Start Your Journey Today
@@ -565,7 +572,7 @@ const FinalCTA = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.2, duration: 1.1 }}
           className="text-indigo-100/80 text-lg mb-12 max-w-2xl mx-auto"
         >
           Healing begins with a single conversation. Our clinical coordinators
