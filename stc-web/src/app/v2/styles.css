@@ -1,0 +1,12 @@
+.v2-hero-bg {
+  background: linear-gradient(135deg, rgba(31, 28, 222, 0.9), rgba(31, 28, 222, 0.55)),
+    url('https://lh3.googleusercontent.com/aida-public/AB6AXuALDh4IctTAD2mIdpY5yWgv4mRAQ8POh-t17xpPBYr1dE_CtdO5L7aX8Fd9_zRYc1BMkk-73R2__Hktyuqulxkf2j_Gr0VZj8U7BU_Vebd9cKZokT0VlIcqKtqfZX5j7xJFhU5tO_8TRV16hITFqFjbrlH02AMZ5KQfu18dRQDWiVesS0h0WNLsqOJFS-mNObcz9T5jmWbNMtvxbc2ztXMtFvFzEl-ny68ECBKoZ4lmThsGo9XZPbcS39qy8dCQxESYQwFWIjn0pQ');
+  background-size: cover;
+  background-position: center;
+}
+
+.v2-glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(31, 28, 222, 0.08);
+}
